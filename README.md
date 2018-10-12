@@ -119,6 +119,8 @@ options conform to the following interface:
 export interface PickerOptions {
   title?: string; // iOS ONLY: The title to display above the picker, defaults to "Choose A Time" or "Choose A Date"
   theme?: string; // iOS ONLY: light for a light blurry effect, dark for a dark blurry effect - defaults to dark
+  cancelLabel?: string;
+  doneLabel?: string;
   maxDate?: Date;
   minDate?: Date;
   startingHour?: number; // Ignored on pickDate()
